@@ -227,6 +227,10 @@ a:hover {
   color: #ffffff;
 }
 
+#main .panel-footer a {
+  color: #ffffff;
+}
+
 #main .content-panel .panel-footer p {
   margin-top: 4px;
   margin-right: 4px;

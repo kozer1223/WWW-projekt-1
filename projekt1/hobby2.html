@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Kacper Kozerski - ciekawe algorytmy</title>
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0"/>
+	<link href='style.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+</head>
+<body>
+<div id="container">
+<header>
+<h1>Kacper Kozerski</h1>
+<h2>moja edukacja</h2>
+<div id="topbar">
+	<a href="index.html">Strona główna</a>
+	<a href="#">Ciekawe algorytmy</a>
+</div>
+</header>
+<div id="main">
+<h1>Ciekawe algorytmy</h1>
+
+<p>
+Poniżej umieszczam przeróżne algorytmy, które wydają mi się ciekawe i warte prześledzenia.
+</p>
+
+<section class="content-panel">
+  <div class="panel-header">
+      <h3>Algorytm Dijkstry</a></h3>
+  </div>
+  <div class="panel-content">
+    <p>
+      Prosty, klasyczny algorytm szukania najkrótszej ścieżki w grafie. Świetny algorytm
+      do zaimplementowania, gdy zaczyna się bawić grafami.
+      Idealnie prezentuje, dlaczego struktury, takie jak kolejka priorytetowa, są przydatne.
+      Ponadto sam algorytm daje ciekawe możliwości optymalizacji, np. przez dobranie
+      struktury kolejki o odpowiednich złożonościach czasowych, oraz heurystyki takie jak A*.
+    </p>
+  </div>
+  <div class="panel-footer">
+    <p><a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"/>Czytaj więcej...</a></p>
+  </div>
+</section>
+
+<section class="content-panel">
+  <div class="panel-header">
+      <h3>Szukanie najbliżej położonej siebie pary punktów 2D</h3>
+  </div>
+  <div class="panel-content">
+    <p>
+      Ciekawy przykład na zastosowanie metody <em>divide-and-conquer</em> na zbicie złożoności algorytmu.
+      Naiwne podejście daje złożoność <strong>O(n<sup>2</sup>)</strong>. Sortując
+      punkty po wybranej osi, można rekurencyjnie dzielić zbiór punktów na dwa wzdłuż wybranej osi,
+      a następnie zajmować się podzbiorami osobno.
+    </p>
+    <p>
+      Okazuje się, że przy scalaniu wyników wystarczy
+      sprawdzić jedynie pewną stałą liczbę punktów (dokładnie maksymalnie 8), żeby mieć pewność co do tego, które pary punktów znajdują się bliżej siebie. Dzięki temu można otrzymać złożoność
+      <strong>O(n&nbsp;log&nbsp;n)</strong>.
+    </p>
+  </div>
+  <div class="panel-footer">
+    <p><a href="https://en.wikipedia.org/wiki/Closest_pair_of_points_problem"/>Czytaj więcej...</a></p>
+  </div>
+</section>
+
+</div> <!-- main -->
+<footer>
+Strona opracowana na Nowoczesne Technologie WWW. © 2018 Kacper Kozerski
+</footer>
+</div> <!-- container -->
+</body>
+</html>
