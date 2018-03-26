@@ -84,7 +84,7 @@ header h1, header h2 {
 }
 
 #main h1 {
-  letter-spacing: 0.025em;
+  letter-spacing: 0.015em;
 }
 
 #main h1:hover {
@@ -92,7 +92,7 @@ header h1, header h2 {
 }
 
 #main h2 {
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
 }
 
 #main h2:hover {
@@ -100,7 +100,7 @@ header h1, header h2 {
 }
 
 #main h3 {
-  letter-spacing: 0.075em;
+  letter-spacing: 0.055em;
 }
 
 #main h3:hover {
