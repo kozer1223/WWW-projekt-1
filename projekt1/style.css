@@ -405,6 +405,7 @@ ul {
 }
 
 .back-panel a {
+  display: inline-block;
   background-color: #FFE8C5;
   color: #C27917;
   padding: 8px;
