@@ -1,6 +1,5 @@
-/* http://paletton.com/#uid=52F0u0koBkGgi-hgBrZyPcU-M5P */
-/* see also http://paletton.com/#uid=63l0r0kleqtbzEKgVuIpcmGtdhZ */
-/* or maybe http://paletton.com/#uid=63x0r0knksDbPIKimwss9omvHiL */
+/* http://paletton.com/#uid=63x0r0knksDbPIKimwss9omvHiL */
+
 * { box-sizing: border-box;}
 
 body{
@@ -55,7 +54,6 @@ header h1, header h2 {
 }
 
 #topbar {
-  /*background-color:#488f21;*/
   background-color: #85ADCB;
   color: #073960;
   border-bottom: solid 4px #4D7FA5;
@@ -83,7 +81,6 @@ header h1, header h2 {
   letter-spacing: 0.025em;
   margin-bottom: 4px;
   transition: padding-left 0.25s;
-  /*background-color: #E0E9EE;*/
 }
 
 #main h1 {
@@ -121,7 +118,6 @@ footer {
   color: #016441;
   background-color: #83CFB4;
   border-top: solid 2px #2A9972;
-  /*border-bottom: solid 1px #016441;*/
   letter-spacing: 0.15em;
 }
 
@@ -217,11 +213,12 @@ a:hover {
   background-color: #85ADCB;
   margin-bottom: 0px;
   padding: 2px;
-  padding-right: 8px;
+  padding-right: 12px;
+  line-height: 1.6;
 }
 
 #main .content-panel .panel-footer {
-  background-color: #2F6893;
+  background-color: #E49D3E;
   margin-bottom: 0px;
   padding: 2px;
   color: #ffffff;
@@ -263,6 +260,7 @@ a:hover {
   margin-bottom: 0px;
   padding: 2px;
   padding-right: 8px;
+  line-height: 1.6;
 }
 
 #main .aside-panel .panel-footer {
@@ -481,4 +479,22 @@ ul {
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent #C27917 transparent;
+}
+
+.arrow-link::before {
+  content: "▶ ";
+  font-size: 0.75em;
+  position: relative;
+  top: -0.25em;
+  margin-right: 0.5em;
+  text-decoration: none;
+}
+
+.arrow-link a {
+  padding-left: 0;
+  transition: padding 0.25s;
+}
+
+.arrow-link a:hover {
+  padding-left: 8px;
 }
